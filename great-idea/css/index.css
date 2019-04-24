@@ -64,3 +64,139 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+html {
+	box-sizing: border-box;
+	text-align: 0 auto;
+  }
+  body {
+  
+	
+  }
+  .container {
+	width: 80%;
+	margin: 0 auto;
+	
+  }
+  nav {
+	background: #ff9999;
+	position: fixed;
+	top: 10px;
+	width: 80%;
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+
+	z-index: 1;
+  }
+  nav a {
+	
+	/* display: inline-block; */
+	color: #666666;
+	text-decoration: none;
+	font-size: 10pt; 
+	padding: 15px 10px;
+	vertical-align: middle;
+   
+	 
+  }
+  nav a:hover{
+	color: black;
+  }
+  .logo{
+	text-align: right;
+	
+	/* display: inline-block; */
+	/* margin-left: 75%; */
+  }
+  header{
+	margin: 50px 0 20px 0;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .headButton{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	/* display: inline-block; */
+	border: 1px solid black;
+	padding: 5px;
+	width: 150px;
+  }
+  .headButton:hover{
+	color: white;
+	background: black;
+  }
+  header h1{
+	text-align: center;
+	font-size: 350%;
+	width: 45%;
+	/* display: inline-block; */
+	padding: 50px;
+	box-sizing: border-box;
+	vertical-align: text-bottom;
+  }
+  header img {
+	
+	width: 40%;
+	height: 40%;
+	max-width: 300px;
+	max-height: 300px;
+	/* display: inline-block;   */
+  }
+  .topSection{
+	margin: 50px 0 20px 0;
+	padding-top: 20px;
+	border-top: 1px solid black;
+	display: flex;
+  }
+  .topLeft {
+	/* display: inline-block; */
+	width: 49%;
+  }
+  
+  
+  .topRight {
+	/* display: inline-block; */
+	width: 49%;
+  }
+  
+  .middle-img {
+	width: 100%;
+	margin-bottom: 20px;
+  }
+  
+  .bottomSection {
+	display: flex;
+  }
+  .bottomLeft{
+	/* display: inline-block; */
+	width: 33%;
+  }
+  .bottomCenter{
+	/* display: inline-block; */
+	width: 33%;
+  }
+  .bottomRight{
+	/* display: inline-block; */
+	width: 33%;
+  }
+  .contact {
+	margin-top: 30px;
+	border-top: 1px solid black;
+	padding-top: 20px;
+  }
+  footer{
+	font-size: 10pt;
+	text-align: center;
+	margin-top: 20px;
+  }
+  .topSection, .bottomSection  {
+	  font-family: 'Cute Font', cursive;
+  }
+  
+  
